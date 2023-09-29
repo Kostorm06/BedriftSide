@@ -77,19 +77,19 @@ body,
 }
 
 .slide1 {
-    background: url("assets/img/Emalje.jpg");
+    background: url("../img/Emalje.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .slide2 {
-    background: url("assets/img/Durham.jpg");
+    background: url("../img/Durham.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .slide3 {
-    background: url("assets/img/Karabin.jpg");
+    background: url("../img/Karabin.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -97,7 +97,7 @@ body,
 
 
 .slide4{
-    background: url("assets/img/Flaske.jpg");
+    background: url("../img/Flaske.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -105,7 +105,7 @@ body,
 }
 
 .slide5{
-    background: url("assets/img/Termos.jpg");
+    background: url("../img/Termos.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -113,7 +113,7 @@ body,
 
 
 .slide6{
-    background: url("assets/img/Latte.jpg");
+    background: url("../img/Latte.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
