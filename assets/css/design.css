@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(100%);
+    grid-template-rows: (2, 50%);
+    height: 80vh;
+    margin-top: 100px;
+}
+
+.parent .boks {
+    width: 90vh;
+    height: 40vh;
+    background-color: lightgray;
+    border: 4px;
+    border-color: black;
+}
+
+.parent .opplast {
+    
+}
+
+.parent .opplast .tekst{
+    height: 30vh;
+    width: 90vh;
+}

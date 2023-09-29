@@ -1,0 +1,136 @@
+* {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas:
+    "overskrift overskrift"
+    "bilde text1"
+    "bilde text1"
+    "bilde text1";
+    height: 70vh;
+    margin-top: 100px;
+}
+
+.parent .venstre {
+    grid-area: bilde;
+
+}
+
+.parent .venstre .bilde{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+
+}
+
+.parent .venstre .bilde#emalje {
+    background: url("/assets/img/Emalje.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+.parent .venstre .bilde#durham {
+    background: url("/assets/img/Durham.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+.parent .venstre .bilde#flaske {
+    background: url("/assets/img/Flaske.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+.parent .venstre .bilde#latte {
+    background: url("/assets/img/Latte.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+.parent .venstre .bilde#termos {
+    background: url("/assets/img/Termos.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+.parent .venstre .bilde#karabin {
+    background: url("/assets/img/Karabin.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+
+.parent .overskrift {
+    text-align: center;
+    grid-area: overskrift;
+    height: 5vh;
+    margin-top: 1vh;
+}
+.parent .text-right h1{
+    text-align: center;
+    margin-top: 2%;
+    font-size: 40px;
+}
+
+.knapp {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 25%;
+}
+button {
+    padding: 25px 80px;
+    background-color: green;
+}
+
+.midten {
+    text-align: center;
+}
+
+.beskrivelse{
+    margin-top: 3vh;
+    margin-left: 3vh;
+    margin-right: 3vh;
+}
+
+.boks {
+    background-color: #EEE0C9;
+    border-radius: 5px;
+    height: 60vh;
+    grid-area: text1;
+    margin-left: 3vh;
+    margin-right: 3vh;
+}
+
+.mellomrom{
+    margin-top: 3vh;
+}
+
+p{
+    margin: 5vh;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1050px) {
+    .boks{
+        height: 80vh;
+    }
+    .mellomrom {
+        margin-top: 0vh;
+    }
+
+}

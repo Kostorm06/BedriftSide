@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="assets/css/generelt.css" />
+        <link rel="stylesheet" href="assets/css/nav.css" />
+        <link rel="stylesheet" href="assets/css/index.css" />
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="navbar-image" class="active"><img src="/assets/img/Logo.png"><a/</li>
+                <li><a href="logg.html">Logg </a></li>
+                <li><a href="omoss.html">Om oss</a></li>
+            </ul>
+        </nav>
+        <img src="/assets/img/fotokoppen.jpg" class="bilde">
+        <vare>
+            <h1>Varer</h1>
+            <ul class="bildeframvisning gallery">
+                <a class="varedurham" href="Durham.html"></a> 
+                <a class="varekarabin" href="Karabin.html"></a> 
+                <a class="vareflaske" href="Flaske.html"></a> 
+                <a class="varetermos" href="Termos.html"></a> 
+                <a class="varelatte" href="Latte.html"></a> 
+                <a class="vareemalje" href="Emalje.html"></a> 
+            </ul>
+        </vare>
+        <support>
+            <!-- A button to open the popup form -->
+            <button class="open-button" onclick="openForm()">Open Form</button>
+
+            <!-- The form -->
+            <div class="form-popup" id="myForm">
+            <form action="https://getform.io/f/667015c2-148c-4384-8e5b-efe432b777cb" method="POST" class="form-container">
+                <h1>Kontakt oss</h1>
+                <label for="name">Navn</label>
+                <input type="text" name="name" placeholder="Navn...">
+                <label for="email">E-post...</label>
+                <input type="email" name="email" placeholder="E-post...">
+                <label for="message">Meldning...</label>
+                <input type="text" name="message" placeholder="Meldning...">
+
+                <button type="submit" class="btn">Send</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+            </form>
+            </div>
+  
+        </support>
+    </body>
+    <footer>
+
+    </footer>
+    <script src="/assets/js/support.js"></script>
+    <script src="/assets/js/scroll.js"></script>
+</html>

@@ -1,0 +1,43 @@
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+    background-color: #ADC4CE;
+    overflow: hidden;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    padding: 37px 35px;
+    background-color: #ADC4CE;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color:white;
+}
+
+li a:hover {
+    background-color: #96B6C5;
+}
+
+nav .active{
+    background-color: #96B6C5;
+}
+
+nav img {
+    height: 60px;
+    width: 60px;
+}
+
+nav .navbar-image {
+    padding: 20px 25px;
+}

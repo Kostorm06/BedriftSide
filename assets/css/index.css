@@ -1,0 +1,89 @@
+{box-sizing: border-box;}
+
+.bilde {
+    display: block;
+    height: auto;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 120px;
+    text-align: center;
+}
+
+
+.bildeframvisning.gallery {
+	padding: 1rem;
+	display: grid;
+	grid-template-columns: repeat(6, 30vw);
+	grid-template-rows: 1fr;
+	grid-column-gap: 1rem;
+	grid-row-gap: 1rem;
+	overflow-x: scroll;
+	height: 50vh;
+	scroll-snap-type: both mandatory;
+	scroll-padding: 1rem;
+}
+
+.bildeframvisning .active {
+	scroll-snap-type: unset;
+}
+
+.bildeframvisning li {
+	scroll-snap-align: center;
+	display: inline-block;
+	border-radius: 3px;
+	font-size: 0;
+}
+
+
+
+vare h1 {
+    margin-top: 100px;
+    margin-bottom: 75px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.vareemalje{
+    background: url("/assets/img/Emalje.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.varedurham{
+    background: url("/assets/img/Durham.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.varekarabin{
+    background: url("/assets/img/Karabin.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.vareflaske{
+    background: url("/assets/img/Flaske.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.varetermos{
+    background: url("/assets/img/Termos.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.varelatte{
+    background: url("/assets/img/Latte.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
