@@ -45,41 +45,41 @@ vare h1 {
 }
 
 .vareemalje{
-    background: url("/assets/img/Emalje.jpg");
+    background: url("assets/img/Emalje.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .varedurham{
-    background: url("/assets/img/Durham.jpg");
+    background: url("assets/img/Durham.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .varekarabin{
-    background: url("/assets/img/Karabin.jpg");
+    background: url("assets/img/Karabin.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .vareflaske{
-    background: url("/assets/img/Flaske.jpg");
+    background: url("assets/img/Flaske.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .varetermos{
-    background: url("/assets/img/Termos.jpg");
+    background: url("assets/img/Termos.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .varelatte{
-    background: url("/assets/img/Latte.jpg");
+    background: url("assets/img/Latte.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
